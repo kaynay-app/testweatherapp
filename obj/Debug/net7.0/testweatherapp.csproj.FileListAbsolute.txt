@@ -1,0 +1,17 @@
+C:\Users\kelem\source\repos\testweatherapp\bin\Debug\net7.0\testweatherapp.exe
+C:\Users\kelem\source\repos\testweatherapp\bin\Debug\net7.0\testweatherapp.deps.json
+C:\Users\kelem\source\repos\testweatherapp\bin\Debug\net7.0\testweatherapp.runtimeconfig.json
+C:\Users\kelem\source\repos\testweatherapp\bin\Debug\net7.0\testweatherapp.dll
+C:\Users\kelem\source\repos\testweatherapp\bin\Debug\net7.0\testweatherapp.pdb
+C:\Users\kelem\source\repos\testweatherapp\obj\Debug\net7.0\testweatherapp.csproj.AssemblyReference.cache
+C:\Users\kelem\source\repos\testweatherapp\obj\Debug\net7.0\testweatherapp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kelem\source\repos\testweatherapp\obj\Debug\net7.0\testweatherapp.AssemblyInfoInputs.cache
+C:\Users\kelem\source\repos\testweatherapp\obj\Debug\net7.0\testweatherapp.AssemblyInfo.cs
+C:\Users\kelem\source\repos\testweatherapp\obj\Debug\net7.0\testweatherapp.csproj.CoreCompileInputs.cache
+C:\Users\kelem\source\repos\testweatherapp\obj\Debug\net7.0\testweatherapp.dll
+C:\Users\kelem\source\repos\testweatherapp\obj\Debug\net7.0\refint\testweatherapp.dll
+C:\Users\kelem\source\repos\testweatherapp\obj\Debug\net7.0\testweatherapp.pdb
+C:\Users\kelem\source\repos\testweatherapp\obj\Debug\net7.0\testweatherapp.genruntimeconfig.cache
+C:\Users\kelem\source\repos\testweatherapp\obj\Debug\net7.0\ref\testweatherapp.dll
+C:\Users\kelem\source\repos\testweatherapp\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\kelem\source\repos\testweatherapp\obj\Debug\net7.0\testweatherapp.csproj.CopyComplete
