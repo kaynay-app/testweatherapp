@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Net.Http;
@@ -40,7 +40,7 @@ public class SysData
 class Program
 {
 	private const string ApiKey = "4a10b7f5f601e202246857687ab8ed87";
-	private const string ApiUrlFormat = "https://api.openweathermap.org/data/2.5/weather?q={0}&appid={1}";
+	private const string ApiUrlFormat = "https://api.openweathermap.org/data/2.5/weather?q={0}&appid={1}&units=imperial";
 
 	private const string FavoritesFilePath = "favorite_Cities_Selected.json"; //variable to store the selected user favorite cities
 	private const int MaxFavorites = 3; //initializing variable for how many cities they can favorite per runtime
@@ -145,19 +145,19 @@ class Program
 					WeatherInfo WeatherInfo = JsonConvert.DeserializeObject<WeatherInfo>(json);
 
 					Console.WriteLine($"\nWeather in {WeatherInfo.Name}, {WeatherInfo.Sys.Country}:"); //adds the country for countries with similar cities 
-					Console.WriteLine($"temperature: {WeatherInfo.main.temp}°C");
+					Console.WriteLine($"temperature: {WeatherInfo.main.temp}°F");
 					Console.WriteLine($"description: {WeatherInfo.Weather[0].description}");
 					Console.WriteLine($"humidity: {WeatherInfo.main.humidity}%");
 					Console.WriteLine($"wind speed: {WeatherInfo.wind.speed} m/s");
 				}
 				else
 				{
-					Console.WriteLine($"Error: Unable to get weather data for {city}"); //handle situations where there's an error during an attempt to fetch weather data (basic exception handler)
+					Console.WriteLine($"Error: We are unable to get weather data for {city}"); //handle situations where there's an error during an attempt to fetch weather data (basic exception handler)
 				}
 			}
 			catch (Exception ex)
 			{
-				Console.WriteLine($"An error occurred: {ex.Message}");
+				Console.WriteLine($"An error has occurred: {ex.Message}");
 			}
 		}
 	}
@@ -169,4 +169,3 @@ class Program
 		Console.WriteLine("Favorites saved.");
 	}
 }
-
